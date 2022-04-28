@@ -1,0 +1,41 @@
+.form-select {
+    background-color: rgb(239, 239, 182);
+    border: none;
+    padding-bottom: 10px;
+    text-align : center;
+
+}
+.form-control {
+    background-color: rgb(239, 239, 182);
+    border: none;
+    padding-bottom: 10px;
+    text-align : center;
+
+
+}
+// .form-control :focus {
+//     background-color: rgb(239, 239, 182);
+//     border: none;
+//     padding-bottom: 10px;
+//     text-align : center
+// }
+input:focus-visible, input:active{
+    background-color: rgb(239, 239, 182);
+   outline: none !important;
+   box-shadow: none
+
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+
+.main-head .dropdown{
+    position: absolute;
+    margin-top: 85px;
+    right: 210px;
+    opacity: 0;
+
+      transition: all .5s ease-in-out;
+    }

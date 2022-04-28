@@ -1,0 +1,38 @@
+
+<body class="container">
+   <div class="row">
+    <div class="col-sm">
+        <label for="name">Віддаю:</label>
+        <br>
+        <select required autofocus="autofocus" class="form-select " name="currency" id="currency" data-input="left" (change)="changeCurrency($event) ">
+            <option value=".">Оберіть валюту</option>
+            <option value="uah">UAH - гривня</option>
+            <option value="usd">USD - долар США</option>
+            <option value="eur">EUR - євро</option>
+        </select>
+        <br>
+        <p><input  type="number" placeholder="Введіть бажану суму" class="form-control focusedInput"  data-input="left" [value]="leftInput" (input)="changeValue($event)" required></p>
+
+    </div>
+
+
+    <div class="col-sm">
+        <label for="name">Отримую:</label>
+        <br>
+        <select required class="form-select" name="currency" id="currency" data-input="right" (change)="changeCurrency($event)">
+            <option value=".">Оберіть валюту</option>
+            <option value="uah">UAH — Гривня</option>
+            <option value="usd">USD — Доллар США</option>
+            <option value="eur">EUR — євро</option>
+
+        </select>
+        <br>
+        <p><input type="number" class="form-control"  data-input="right" [value]="rightInput" (input)="changeValue($event)" required></p>
+
+    </div>
+</div>
+
+
+
+
+</body>
