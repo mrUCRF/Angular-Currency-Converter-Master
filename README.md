@@ -1,16 +1,16 @@
 # AngularProject
 
-Проект був створений за допомогою [Angular CLI](https://github.com/angular/angular-cli) version 13.3.2.
+The project was created using angular [Angular CLI](https://github.com/angular/angular-cli) version 13.3.2.
 
-## Клонування проекту на локальний пристрій:
+## To run locally, clone the repository by running the following command:
 
 $ git clone https://github.com/mrUCRF/Currency-Converter-Master
 
-## В локальній папці репозиторія встановіть пакети залежностей проекту:
+## In the local repository folder, install the project dependency packages:
 
 $ npm install
 
-## Запуск проекту:
+## Run project
 
 $ npm start
 
