@@ -1,5 +1,5 @@
 {
-  "name": "app",
+  "name": "q",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -36,5 +36,17 @@
     "karma-jasmine": "~4.0.0",
     "karma-jasmine-html-reporter": "~1.7.0",
     "typescript": "~4.6.2"
-  }
+  },
+  "main": "karma.conf.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrUCRF/Currency-Converter-Master.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mrUCRF/Currency-Converter-Master/issues"
+  },
+  "homepage": "https://github.com/mrUCRF/Currency-Converter-Master#readme",
+  "description": ""
 }
