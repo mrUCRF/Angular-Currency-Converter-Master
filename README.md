@@ -1,19 +1,16 @@
-# AngularProject1
+# AngularProject
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.2.
+The project was created using angular [Angular CLI](https://github.com/angular/angular-cli) version 13.3.2.
 
-## Development server
+## To run locally, clone the repository by running the following command:
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+$ git clone https://github.com/mrUCRF/Currency-Converter-Master
 
-## Code scaffolding
+## In the local repository folder, install the project dependency packages:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+$ npm install
 
-## Build
+## Run project
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+$ npm start
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
